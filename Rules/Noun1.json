@@ -1,0 +1,7 @@
+{
+"5" : ["PATTERN", "PLURAL_SUFFIX_S", "s$", ""],
+"4" : ["PATTERN", "PLURAL_SUFFIX_ES", "es$", ""],
+"3" : ["PATTERN", "PLURAL_SUFFIX_OES", "oes$", "o"],
+"2" : ["PATTERN", "PLURAL_SUFFIX_IES", "ies$", "y"],
+"1" : ["PATTERN", "PLURAL_SUFFIX_VES", "ves$", "f,fe"]
+}
