@@ -19,7 +19,13 @@ import x.y.rules.noun.Grammar;
 
 import org.json.JSONObject;
 
+import org.springframework.beans.BeansException;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import x.y.cache.ICache;
+import x.y.common.*;
 
 
 public class JsonReadTest {
@@ -29,6 +35,13 @@ public class JsonReadTest {
 		//check1();
 		System.out.println(" Loading grammar data ... ");
 		Grammar.loadNounGrammarData();
+		
+		ApplicationContext appContext = new ClassPathXmlApplicationContext(
+		        "Config/spring-context.xml");
+			ICache<String,String> cache = (ICache<String,String>) appContext.getBean("distCache");
+		 
+		    cache.put("key", "value");
+		    System.out.print(cache.get("key"));
 
 	}	
 	
