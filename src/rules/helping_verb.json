@@ -1,0 +1,10 @@
+{
+	"1" : ["is", "are", "has", "have", "has not" "have not", 
+		   "has been", "have been", "has not been", "have not been" 
+	       "did", "do", "was", "were", "had", "had been", "had not been"
+	       "will", "shall", "will be", "shall be", "will not be", "shall not be",
+	       "will have", "shall have", "will have been", "shall have been", 
+	       "will have not been", "shall have not been"
+	      ]
+
+}
